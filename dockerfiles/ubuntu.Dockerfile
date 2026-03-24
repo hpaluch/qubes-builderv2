@@ -6,6 +6,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Install dependencies for Qubes Builder
 RUN apt-get update && \
     apt-get install -y \
+      dosfstools \
       curl \
       debootstrap \
       devscripts \
